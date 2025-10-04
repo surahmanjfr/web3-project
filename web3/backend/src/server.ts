@@ -1,7 +1,8 @@
 import express, { Request, Response } from 'express';
 import cors from 'cors';
-import { ethers, Contract, AddressLike } from 'ethers';
+import { ethers, Contract } from 'ethers';
 import dotenv from 'dotenv';
+import { AddressLike } from 'ethers';
 
 dotenv.config();
 
