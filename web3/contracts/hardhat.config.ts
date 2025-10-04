@@ -8,9 +8,9 @@ const config: HardhatUserConfig = {
   solidity: "0.8.19",
   networks: {
     hardhat: {
-      chainId: 1337
-    },
-    // Add other networks as needed
+      chainId: 1337,
+      type: "hardhat"
+    }
   }
 };
 
